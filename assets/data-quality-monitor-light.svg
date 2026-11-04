@@ -1,0 +1,18 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='220' viewBox='0 0 1200 220' role='img' aria-labelledby='title desc'>
+<title id='title'>Data Quality Monitor</title><desc id='desc'>Inspect data. Trace every finding. A local desktop application for tabular data contracts, review, and evidence.</desc>
+<rect x='1' y='1' width='1198' height='218' rx='16' fill='#f7f9f5' stroke='#d0ddd3' stroke-width='2'/>
+<rect x='36' y='36' width='153' height='148' rx='20' fill='#dcece2'/>
+<rect x='65' y='56' width='93' height='109' rx='9' fill='#f2f5f1' stroke='#1d7058' stroke-width='2'/>
+<path d='M65 83h93M89 83v82M65 110h93M65 137h93' fill='none' stroke='#d0ddd3' stroke-width='2'/>
+<rect x='75' y='65' width='64' height='6' rx='3' fill='#1d7058' opacity='.75'/>
+<rect x='98' y='92' width='36' height='7' rx='3' fill='#1d7058' opacity='.5'/>
+<rect x='98' y='119' width='23' height='7' rx='3' fill='#ae6942' opacity='.85'/>
+<circle cx='153' cy='153' r='23' fill='#1d7058'/>
+<path d='M142 153l7 7 15-16' fill='none' stroke='#f2f5f1' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/>
+<g font-family='Segoe UI, Arial, sans-serif'>
+<text x='224' y='105' font-size='62' font-weight='700' letter-spacing='-1.6' fill='#17342f'>Data Quality Monitor</text>
+<text x='228' y='158' font-size='33' fill='#546a64'>Inspect data. Trace every finding.</text>
+</g>
+<circle cx='1104' cy='110' r='30' fill='#dcece2'/>
+<path d='M1093 121l21-21m-17 0h17v17' fill='none' stroke='#1d7058' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/>
+</svg>

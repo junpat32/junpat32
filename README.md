@@ -15,9 +15,27 @@
 
 I'm **Patrick Wong**, focused on **AI and data engineering**. I'm interested in the full path from useful data to AI applications: preparing inputs, evaluating models, and building software around the results.
 
-My current work explores computational intelligence for data-layout optimisation, combining Python experiments, SQL benchmarks, and a desktop results explorer.
+My current projects cover **data quality assessment** and **computational intelligence for SQL performance**, with an emphasis on explicit checks, reproducible evidence, and usable desktop interfaces.
 
 ## Selected work
+
+<a href="https://github.com/junpat32/data-quality-monitor">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/data-quality-monitor-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/data-quality-monitor-light.svg">
+    <img src="assets/data-quality-monitor-light.svg" width="100%" alt="Data Quality Monitor — Inspect data. Trace every finding. View the project.">
+  </picture>
+</a>
+
+**[Data Quality Monitor](https://github.com/junpat32/data-quality-monitor)** is a local desktop application for inspecting CSV/TSV, Excel, and scalar Parquet tables against explicit data contracts.
+
+- **Validate:** required fields, composite keys, types, bounds, categories, dates, foreign keys, and cross-table reconciliation.
+- **Review:** inspect column profiles and source-linked findings, with an append-only history of review decisions.
+- **Preserve evidence:** export HTML assessments and CSV/JSONL ledgers; resume compatible interrupted scans from saved snapshots.
+
+An early desktop build, with readiness scoped to the configured checks.
+
+**[Code & application guide →](https://github.com/junpat32/data-quality-monitor)** &nbsp; [Validation workflow](https://github.com/junpat32/data-quality-monitor/blob/main/test-data/README.md)
 
 <a href="https://github.com/junpat32/layoutlab-ci">
   <picture>
@@ -52,7 +70,11 @@ These results apply to the tested workload and laptop. Random search found the s
 
 ## Toolkit
 
-`Python` &nbsp; `SQL` &nbsp; `DuckDB` &nbsp; `pandas` &nbsp; `NumPy` &nbsp; `scikit-learn` &nbsp; `Jupyter` &nbsp; `Tkinter`
+**Build:** `Python` &nbsp; `PySide6` &nbsp; `Tkinter`
+
+**Work with data:** `SQL` &nbsp; `DuckDB` &nbsp; `SQLite` &nbsp; `PyArrow` &nbsp; `pandas` &nbsp; `NumPy`
+
+**Experiment and test:** `scikit-learn` &nbsp; `Jupyter` &nbsp; `pytest`
 
 ---
 
