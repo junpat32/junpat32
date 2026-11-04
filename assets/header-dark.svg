@@ -1,0 +1,34 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='410' viewBox='0 0 1200 410' role='img' aria-labelledby='title desc'>
+<title id='title'>Patrick Wong — AI and Data Engineering</title><desc id='desc'>Intelligent systems. Thoughtful engineering. An abstract data grid illustrates code, data, and discovery.</desc>
+<defs><pattern id='grid' width='40' height='40' patternUnits='userSpaceOnUse'><path d='M40 0H0V40' fill='none' stroke='#2b414c' stroke-width='.6'/></pattern><clipPath id='clip'><rect width='1200' height='410' rx='20'/></clipPath></defs>
+<g clip-path='url(#clip)'>
+<rect width='1200' height='410' fill='#101b25'/>
+<rect x='745' width='455' height='410' fill='url(#grid)' opacity='.5'/>
+<circle cx='1035' cy='195' r='184' fill='none' stroke='#2b414c'/>
+<circle cx='1035' cy='195' r='143' fill='none' stroke='#2b414c' opacity='.65'/>
+<rect x='0' y='0' width='7' height='410' fill='#a7e4ce'/>
+<g font-family='Segoe UI, Arial, sans-serif'>
+<rect x='48' y='43' width='33' height='33' rx='10' fill='#f1f5f2'/>
+<path d='M57 53h11v8c0 5-3 7-7 7h-3v-4h3c2 0 3-1 3-3v-4h-7z' fill='#101b25'/>
+<text x='96' y='65' font-size='15' font-weight='700' letter-spacing='2.2' fill='#f1f5f2'>PATRICK WONG</text>
+<text x='48' y='121' font-size='12' font-weight='600' letter-spacing='2.2' fill='#adbfca'>AI &amp; DATA ENGINEERING</text>
+<text x='48' y='184' font-size='53' font-weight='700' letter-spacing='-2' fill='#f1f5f2'>Intelligent systems.</text>
+<text x='48' y='245' font-size='53' font-weight='700' letter-spacing='-2' fill='#a7e4ce'>Thoughtful engineering.</text>
+<text x='50' y='286' font-size='18' fill='#adbfca'>From data and experiments to useful AI.</text>
+</g>
+<path d='M48 313H695' stroke='#2b414c'/>
+<g font-family='Consolas, Courier New, monospace' font-size='13' letter-spacing='1.1' fill='#adbfca'>
+<text x='50' y='350'>@JUNPAT32</text><text x='695' y='350' text-anchor='end'>LEARN / BUILD / ITERATE</text>
+</g>
+<g transform='rotate(-8 925 205)'>
+<rect x='786' y='91' width='282' height='242' rx='18' fill='#101b25' stroke='#2b414c' stroke-width='1.5'/>
+<rect x='813' y='123' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='852' y='123' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='891' y='123' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='930' y='123' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='969' y='123' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='1008' y='123' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='813' y='159' width='30' height='27' rx='5' fill='#a7e4ce' opacity='0.45'/><rect x='852' y='159' width='30' height='27' rx='5' fill='#a7e4ce' opacity='0.52'/><rect x='891' y='159' width='30' height='27' rx='5' fill='#a7e4ce' opacity='0.5900000000000001'/><rect x='930' y='159' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='969' y='159' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='1008' y='159' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='813' y='195' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='852' y='195' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='891' y='195' width='30' height='27' rx='5' fill='#a7e4ce' opacity='0.5900000000000001'/><rect x='930' y='195' width='30' height='27' rx='5' fill='#a7e4ce' opacity='0.66'/><rect x='969' y='195' width='30' height='27' rx='5' fill='#a7e4ce' opacity='0.73'/><rect x='1008' y='195' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='813' y='231' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='852' y='231' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='891' y='231' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='930' y='231' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='969' y='231' width='30' height='27' rx='5' fill='#a7e4ce' opacity='0.73'/><rect x='1008' y='231' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='813' y='267' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='852' y='267' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='891' y='267' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='930' y='267' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='969' y='267' width='30' height='27' rx='5' fill='#203742' opacity='1'/><rect x='1008' y='267' width='30' height='27' rx='5' fill='#203742' opacity='1'/>
+<path d='M812 311H1042' stroke='#2b414c'/>
+<circle cx='815' cy='311' r='3' fill='#a7e4ce'/>
+<text x='1042' y='307' text-anchor='end' font-family='Consolas, Courier New, monospace' font-size='10' letter-spacing='1.3' fill='#adbfca'>IDEA → EXPERIMENT</text>
+</g>
+<g font-family='Consolas, Courier New, monospace' font-size='11' letter-spacing='1.2'>
+<rect x='1040' y='70' width='101' height='32' rx='16' fill='#1b3639' stroke='#2b414c'/><text x='1090' y='91' text-anchor='middle' fill='#a7e4ce'>CURIOSITY</text>
+<rect x='941' y='339' width='172' height='32' rx='16' fill='#182b35' stroke='#2b414c'/><circle cx='959' cy='355' r='3' fill='#e8b98e'/><text x='975' y='359' fill='#adbfca'>WORK IN PROGRESS</text>
+</g>
+</g></svg>
