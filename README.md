@@ -15,9 +15,19 @@
 
 I'm **Patrick Wong**, focused on **AI and data engineering**. I'm interested in the full path from useful data to AI applications: preparing inputs, evaluating models, and building software around the results.
 
-My current work combines **data quality monitoring**, **desktop application development**, and **computational intelligence for SQL performance**. I focus on explicit contracts, reproducible evaluation, and evidence people can inspect.
+My current work spans **explainable financial-risk modelling**, **data quality monitoring**, and **computational intelligence for SQL performance**. I focus on explicit contracts, reproducible evaluation, and evidence people can inspect.
 
 ## Selected work
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/fast-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/fast-light.svg">
+  <img src="assets/fast-light.svg" width="100%" alt="FAST — Explainable risk. Financial wellbeing. Private-source project.">
+</picture>
+
+**FAST — Financial Advisory and Safety Tracker** is a financial-wellbeing prototype combining explainable risk modelling, scenario simulation, and a React Native mobile app. Model evaluation uses synthetic data.
+
+**Private source · In development**
 
 <a href="https://github.com/junpat32/data-quality-monitor">
   <picture>
@@ -78,7 +88,7 @@ These results apply to the tested workload and laptop. Random search found the s
 
 ## Toolkit
 
-**Build:** `Python` &nbsp; `PySide6` &nbsp; `Tkinter`
+**Build:** `Python` &nbsp; `React Native` &nbsp; `PySide6` &nbsp; `Tkinter`
 
 **Work with data:** `SQL` &nbsp; `DuckDB` &nbsp; `SQLite` &nbsp; `PyArrow` &nbsp; `pandas` &nbsp; `NumPy`
 

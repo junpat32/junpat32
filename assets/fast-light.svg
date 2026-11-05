@@ -1,0 +1,20 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='220' viewBox='0 0 1200 220' role='img' aria-labelledby='title desc'>
+<title id='title'>FAST — Financial Advisory and Safety Tracker</title><desc id='desc'>Explainable risk. Financial wellbeing. A private-source prototype combining risk modelling, scenario simulation, and a mobile application.</desc>
+<rect x='1' y='1' width='1198' height='218' rx='16' fill='#f7f9f5' stroke='#d0ddd3' stroke-width='2'/>
+<rect x='36' y='36' width='153' height='148' rx='20' fill='#dcece2'/>
+<rect x='77' y='51' width='72' height='120' rx='13' fill='#f2f5f1' stroke='#1d7058' stroke-width='2'/>
+<path d='M100 61h26' stroke='#1d7058' stroke-width='3' stroke-linecap='round'/>
+<path d='M90 143h46M90 119h46M90 95h46' stroke='#d0ddd3'/>
+<path d='M90 132l13-17 12 6 19-31' fill='none' stroke='#1d7058' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='103' cy='115' r='4' fill='#ae6942'/>
+<circle cx='134' cy='90' r='4' fill='#1d7058'/>
+<circle cx='113' cy='159' r='3' fill='#1d7058'/>
+<g font-family='Segoe UI, Arial, sans-serif'>
+<text x='224' y='105' font-size='64' font-weight='700' letter-spacing='-1.6' fill='#17342f'>FAST</text>
+<text x='228' y='158' font-size='33' fill='#546a64'>Explainable risk. Financial wellbeing.</text>
+</g>
+<circle cx='1104' cy='110' r='30' fill='#dcece2'/>
+<rect x='1093' y='108' width='22' height='17' rx='4' fill='none' stroke='#1d7058' stroke-width='2'/>
+<path d='M1097 108v-7a7 7 0 0 1 14 0v7' fill='none' stroke='#1d7058' stroke-width='2'/>
+<circle cx='1104' cy='116' r='2' fill='#1d7058'/>
+</svg>
