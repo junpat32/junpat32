@@ -25,7 +25,18 @@ My current work spans **explainable financial-risk modelling**, **data quality m
   <img src="assets/fast-light.svg" width="100%" alt="FAST — Explainable risk. Financial wellbeing. Private-source project.">
 </picture>
 
-**FAST — Financial Advisory and Safety Tracker** is a financial-wellbeing prototype combining explainable risk modelling, scenario simulation, and a React Native mobile app. Model evaluation uses synthetic data.
+**FAST — Financial Advisory and Safety Tracker** is a mobile financial-wellbeing prototype designed to make financial risk easier to understand. It brings together a Python assessment engine, explainable machine learning, scenario simulation, and a React Native application.
+
+- **Assess and explain:** combine rule-based risk bands and a financial-health score with ML forecasts and traceable explanations of the model's reasoning.
+- **Explore possible futures:** use Monte Carlo simulations and life-event scenarios to show a range of possible future balances and financial pressures.
+- **Connect the experience:** bring transaction entry, risk views, forecast explanations, and a future-self view into a mobile app, with non-competitive progress feedback.
+- **Ground the money helper:** use supplied financial facts to support explanations, with checks on quoted numbers and refusal handling for product or investment selections.
+
+**Engineering focus:** connecting modelling and simulation to an application people can use, while keeping assessments, forecasts, and explanations distinct.
+
+**Evaluation approach:** compare predictive models with transparent rule-based and probabilistic baselines; inspect calibration, sensitivity, and robustness; and test the assessment logic and application flows.
+
+Predictive evaluation uses synthetic data. Real-world predictive performance and user-study outcomes have not been established. Forecast explanations describe model contributions, not causes of financial outcomes.
 
 **Private source · In development**
 
