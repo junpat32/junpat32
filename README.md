@@ -15,7 +15,7 @@
 
 I'm **Patrick Wong**, focused on **AI and data engineering**. I'm interested in the full path from useful data to AI applications: preparing inputs, evaluating models, and building software around the results.
 
-My current projects cover **data quality assessment** and **computational intelligence for SQL performance**, with an emphasis on explicit checks, reproducible evidence, and usable desktop interfaces.
+My current work combines **data quality monitoring**, **desktop application development**, and **computational intelligence for SQL performance**. I focus on explicit contracts, reproducible evaluation, and evidence people can inspect.
 
 ## Selected work
 
@@ -23,19 +23,27 @@ My current projects cover **data quality assessment** and **computational intell
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/data-quality-monitor-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/data-quality-monitor-light.svg">
-    <img src="assets/data-quality-monitor-light.svg" width="100%" alt="Data Quality Monitor — Inspect data. Trace every finding. View the project.">
+    <img src="assets/data-quality-monitor-light.svg" width="100%" alt="Data Quality Monitor — Reusable rules. Evidence comparisons. View the project.">
   </picture>
 </a>
 
-**[Data Quality Monitor](https://github.com/junpat32/data-quality-monitor)** is a local desktop application for inspecting CSV/TSV, Excel, and scalar Parquet tables against explicit data contracts.
+**[Data Quality Monitor](https://github.com/junpat32/data-quality-monitor)** is a local Windows desktop workspace for checking tabular data, reusing rule contracts, and comparing saved assessments. It supports CSV/TSV, selected Excel worksheets, and scalar Parquet.
 
-- **Validate:** required fields, composite keys, types, bounds, categories, dates, foreign keys, and cross-table reconciliation.
-- **Review:** inspect column profiles and source-linked findings, with an append-only history of review decisions.
-- **Preserve evidence:** export HTML assessments and CSV/JSONL ledgers; resume compatible interrupted scans from saved snapshots.
+- **Define and reuse:** column contracts, foreign keys, reconciliation, structured business checks, and immutable rule-template revisions.
+- **Compare deliveries:** key-based baseline comparisons with compatibility checks, paged finding changes, and before/after record inspection.
+- **Review and recover:** append-only review history, saved-evidence exports, resumable scans, and isolated input previews.
 
-An early desktop build, with readiness scoped to the configured checks.
+Recorded validation for **Windows beta 0.5.0b1**:
 
-**[Code & application guide →](https://github.com/junpat32/data-quality-monitor)** &nbsp; [Validation workflow](https://github.com/junpat32/data-quality-monitor/blob/main/test-data/README.md)
+| Check | Recorded result |
+| :--- | :--- |
+| Automated suite | **108 tests passed** |
+| Packaged CSV scan | **1,000,000 generated records** in **226.5 seconds** |
+| Detection check | All **1,000 deliberately injected product-check violations** recorded |
+
+The scan measurement uses one local, four-column synthetic workload. The Windows 11 x64 beta is unsigned, with separate clean-machine acceptance still pending.
+
+**[User guide →](https://github.com/junpat32/data-quality-monitor/blob/main/USER_GUIDE.md)** &nbsp; [Recorded beta validation](https://github.com/junpat32/data-quality-monitor/blob/main/BETA_VALIDATION.md) &nbsp; [Packaging & acceptance](https://github.com/junpat32/data-quality-monitor/blob/main/BETA_RELEASE.md)
 
 <a href="https://github.com/junpat32/layoutlab-ci">
   <picture>
@@ -74,7 +82,9 @@ These results apply to the tested workload and laptop. Random search found the s
 
 **Work with data:** `SQL` &nbsp; `DuckDB` &nbsp; `SQLite` &nbsp; `PyArrow` &nbsp; `pandas` &nbsp; `NumPy`
 
-**Experiment and test:** `scikit-learn` &nbsp; `Jupyter` &nbsp; `pytest`
+**Experiment:** `scikit-learn` &nbsp; `Jupyter`
+
+**Test and package:** `pytest` &nbsp; `Ruff` &nbsp; `PyInstaller` &nbsp; `Inno Setup`
 
 ---
 
