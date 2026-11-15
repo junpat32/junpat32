@@ -1,8 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Patrick Wong — AI and Data Engineering.">
-</picture>
+<img src="assets/profile-banner-emerald.jpg" width="100%" alt="Patrick Wong, AI and Data Engineering">
 
 <p align="center">
   <a href="#about-me">About</a> &nbsp; · &nbsp;
