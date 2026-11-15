@@ -1,4 +1,7 @@
-<img src="assets/profile-banner-emerald.jpg" width="100%" alt="Patrick Wong, AI and Data Engineering">
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-banner-emerald.jpg">
+  <img src="assets/profile-banner-emerald-motion.gif" width="100%" alt="Patrick Wong, AI and Data Engineering">
+</picture>
 
 <p align="center">
   <a href="#about-me">About</a> &nbsp; · &nbsp;
