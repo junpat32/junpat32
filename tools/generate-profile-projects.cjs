@@ -86,6 +86,38 @@ function qualityIllustration(phase) {
   return `${links}${tableAt(firstX, [0, 1, 2, 3])}${tableAt(secondX, rowOrder)}`;
 }
 
+function pipelineIllustration(phase) {
+  const inputFiles = [53, 123].map(y => `
+    <path d="M755 ${y}h40l16 16v33a6 6 0 0 1 -6 6h-50a6 6 0 0 1 -6 -6v-43a6 6 0 0 1 6 -6Z"
+      fill="#153632" stroke="${palette.emerald}" stroke-opacity="0.78"/>
+    <path d="M795 ${y}v11a5 5 0 0 0 5 5h11 M763 ${y + 26}h30 M763 ${y + 37}h23"
+      fill="none" stroke="${palette.sage}" stroke-opacity="0.66" stroke-linecap="round"/>`).join('\n');
+
+  const routes = [
+    { path: 'M811 80H835Q846 80 851 90L858 103Q864 114 878 114H889', color: palette.emerald, arrival: 0.22 },
+    { path: 'M811 150H835Q846 150 851 140L858 126Q864 114 878 114H889', color: palette.emerald, arrival: 0.37 },
+    { path: 'M953 114H1016', color: palette.gold, arrival: 0.68 },
+  ].map(route => {
+    const glow = pulseAt(phase, route.arrival);
+    return `<path d="${route.path}" fill="none" stroke="${route.color}" stroke-linecap="round"
+      stroke-width="${1.7 + 2.1 * glow}" opacity="${0.54 + 0.46 * glow}"/>`;
+  }).join('\n');
+
+  const reportBars = [22, 35, 29, 47].map((barHeight, index) => {
+    const color = index === 3 ? palette.gold : palette.emerald;
+    return `<rect x="${1031 + index * 20}" y="${144 - barHeight}" width="11" height="${barHeight}" rx="2"
+      fill="${color}" opacity="${0.67 + 0.33 * pulseAt(phase, 0.69 + 0.06 * index)}"/>`;
+  }).join('\n');
+
+  return `${routes}${inputFiles}
+    <rect x="889" y="82" width="64" height="64" rx="13" fill="#153632" stroke="${palette.emerald}" stroke-opacity="0.78"/>
+    <rect x="889" y="82" width="64" height="64" rx="13" fill="${palette.emerald}" opacity="${0.44 * pulseAt(phase, 0.51)}"/>
+    <path d="M907 113l10 10 18 -19" fill="none" stroke="${palette.gold}" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1016" y="63" width="109" height="102" rx="10" fill="#153632" stroke="${palette.emerald}" stroke-opacity="0.78"/>
+    <path d="M1031 81h37 M1031 144h78" stroke="${palette.sage}" stroke-opacity="0.62" stroke-linecap="round"/>
+    ${reportBars}`;
+}
+
 function layoutIllustration(phase) {
   const tiles = Array.from({ length: 6 }, (_, column) => {
     const x = 757 + column * 63;
@@ -114,6 +146,7 @@ function layoutIllustration(phase) {
 const projects = [
   { name: 'fast', title: 'FAST', subtitle: 'Explainable risk modelling', size: 71, illustration: fastIllustration, pause: 1370, hold: 760 },
   { name: 'data-quality-monitor', title: 'Data Quality Monitor', subtitle: 'Reusable rules and evidence comparison', size: 57, illustration: qualityIllustration, pause: 2600, hold: 810 },
+  { name: 'data-pipeline-toolkit', title: 'Data Pipeline Toolkit', subtitle: 'Recurring deliveries and reporting', size: 57, illustration: pipelineIllustration, pause: 3100, hold: 810 },
   { name: 'layoutlab', title: 'LayoutLab', subtitle: 'Parquet layout and SQL performance', size: 66, illustration: layoutIllustration, pause: 3540, hold: 800 },
 ];
 

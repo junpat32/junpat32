@@ -14,7 +14,7 @@
 
 I'm **Patrick Wong**, focused on **AI and data engineering**. I'm interested in the full path from useful data to AI applications: preparing inputs, evaluating models, and building software around the results.
 
-My current work spans **explainable financial-risk modelling**, **data quality monitoring**, and **computational intelligence for SQL performance**. I focus on explicit contracts, reproducible evaluation, and evidence people can inspect.
+My current work spans **explainable financial-risk modelling**, **data quality monitoring and delivery pipelines**, and **computational intelligence for SQL performance**. I focus on explicit contracts, reproducible evaluation, and evidence people can inspect.
 
 ## Selected work
 
@@ -62,6 +62,21 @@ Recorded validation for **Windows beta 0.5.0b1**:
 The scan measurement uses one local, four-column synthetic workload. The Windows 11 x64 beta is unsigned, with separate clean-machine acceptance still pending.
 
 **[User guide →](https://github.com/junpat32/data-quality-monitor/blob/main/USER_GUIDE.md)** &nbsp; [Recorded beta validation](https://github.com/junpat32/data-quality-monitor/blob/main/BETA_VALIDATION.md) &nbsp; [Packaging & acceptance](https://github.com/junpat32/data-quality-monitor/blob/main/BETA_RELEASE.md)
+
+<a href="https://github.com/junpat32/data-pipeline-toolkit">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/data-pipeline-toolkit-contours.png">
+    <img src="assets/data-pipeline-toolkit-contours.gif" width="100%" alt="View Data Pipeline Toolkit, a project for validating and reporting on recurring deliveries.">
+  </picture>
+</a>
+
+**[Data Pipeline Toolkit](https://github.com/junpat32/data-pipeline-toolkit)** is a Python command-line tool for recurring CSV and Parquet deliveries. It validates incoming data against versioned rules and uses DuckDB to publish quality and business reports for a local Streamlit dashboard.
+
+- **Handle repeated deliveries.** Skip exact duplicate imports, log failed attempts, and retry with a corrected file.
+- **Trace each report.** Record the input file fingerprints and rule versions that produced it.
+- **Reuse the workflow.** The retail demo shows how negative quantities affect net line value. The inventory demo runs the same validation workflow with a separate configuration.
+
+**[Try the demo →](https://github.com/junpat32/data-pipeline-toolkit#run-the-demo-on-windows)** &nbsp; [Verification record](https://github.com/junpat32/data-pipeline-toolkit/blob/main/docs/verification.md)
 
 <a href="https://github.com/junpat32/layoutlab-ci">
   <picture>
