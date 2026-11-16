@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-banner-emerald.jpg">
-  <img src="assets/profile-banner-emerald-motion.gif" width="100%" alt="Patrick Wong, AI and Data Engineering">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-banner-contours.png">
+  <img src="assets/profile-banner-contours.gif" width="100%" alt="Patrick Wong, AI and Data Engineering">
 </picture>
 
 <p align="center">
