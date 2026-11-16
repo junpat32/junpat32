@@ -19,9 +19,8 @@ My current work spans **explainable financial-risk modelling**, **data quality m
 ## Selected work
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/fast-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/fast-light.svg">
-  <img src="assets/fast-light.svg" width="100%" alt="FAST — Explainable risk. Financial wellbeing. Private-source project.">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/fast-contours.png">
+  <img src="assets/fast-contours.gif" width="100%" alt="FAST, explainable risk modelling. Illustration of a forecast and its range of possible outcomes.">
 </picture>
 
 **FAST — Financial Advisory and Safety Tracker** is a mobile financial-wellbeing prototype designed to make financial risk easier to understand. It brings together a Python assessment engine, explainable machine learning, scenario simulation, and a React Native application.
@@ -41,9 +40,8 @@ Predictive evaluation uses synthetic data. Real-world predictive performance and
 
 <a href="https://github.com/junpat32/data-quality-monitor">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/data-quality-monitor-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/data-quality-monitor-light.svg">
-    <img src="assets/data-quality-monitor-light.svg" width="100%" alt="Data Quality Monitor — Reusable rules. Evidence comparisons. View the project.">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/data-quality-monitor-contours.png">
+    <img src="assets/data-quality-monitor-contours.gif" width="100%" alt="View Data Quality Monitor, a project for reusable rules and evidence comparison.">
   </picture>
 </a>
 
@@ -67,9 +65,8 @@ The scan measurement uses one local, four-column synthetic workload. The Windows
 
 <a href="https://github.com/junpat32/layoutlab-ci">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/layoutlab-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/layoutlab-light.svg">
-    <img src="assets/layoutlab-light.svg" width="100%" alt="LayoutLab — Data-layout optimisation for analytical SQL. View the project.">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/layoutlab-contours.png">
+    <img src="assets/layoutlab-contours.gif" width="100%" alt="View LayoutLab, a project about Parquet layout and SQL performance.">
   </picture>
 </a>
 
@@ -106,7 +103,7 @@ These results apply to the tested workload and laptop. Random search found the s
 
 **Test and package:** `pytest` &nbsp; `Ruff` &nbsp; `PyInstaller` &nbsp; `Inno Setup`
 
----
+<img src="assets/profile-divider.svg" width="100%" alt="">
 
 <p align="center">
   <a href="https://github.com/junpat32?tab=repositories"><strong>More experiments & projects →</strong></a>
