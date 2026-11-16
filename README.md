@@ -74,7 +74,15 @@ The scan measurement uses one local, four-column synthetic workload. The Windows
 
 - **Handle repeated deliveries.** Skip exact duplicate imports, log failed attempts, and retry with a corrected file.
 - **Trace each report.** Record the input file fingerprints and rule versions that produced it.
-- **Reuse the workflow.** The retail demo shows how negative quantities affect net line value. The inventory demo runs the same validation workflow with a separate configuration.
+- **Reuse the workflow.** Run the same validation workflow for retail and inventory using separate dataset configurations.
+
+Recorded results from the Windows verification
+
+| Check | Recorded result |
+| :--- | :--- |
+| Synthetic retail demo | **8 of 9 records accepted**, with 2 rule findings. Negative-quantity lines reduced **£110 gross** to **£84 net**. |
+| UCI Online Retail sample | **10,000 records accepted** from the first 10,000 rows. The report counted 130 negative-quantity lines and 2,280 UK lines with missing customer IDs. |
+| Automated tests | **15 passed**, covering duplicate imports, rollback after failed ingestion, and dashboard filters. |
 
 **[Try the demo →](https://github.com/junpat32/data-pipeline-toolkit#run-the-demo-on-windows)** &nbsp; [Verification record](https://github.com/junpat32/data-pipeline-toolkit/blob/main/docs/verification.md)
 
