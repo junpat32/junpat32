@@ -4,7 +4,7 @@ const path = require('node:path');
 const sharp = require('sharp');
 
 const width = 1200;
-const height = 400;
+const height = 288;
 const frameCount = 60;
 const frameDelay = 90;
 const assets = path.resolve(__dirname, '../assets');
@@ -20,9 +20,10 @@ function project(u, v) {
   const main = 186 * ridge(u, 0.77 - 0.14 * v, 0.213) * ridge(v, 0.42, 0.57);
   const shoulder = 76 * ridge(u, 0.39 + 0.12 * v, 0.153) * ridge(v, 0.79, 0.46);
   const ripple = 10 * amplitude * Math.sin(14 * u + 6 * v);
+  const elevation = 266 + 103 * v - 58 * u - amplitude * (main + shoulder) - ripple;
   return [
     557 + 599 * u + 108 * (v - 0.5),
-    266 + 103 * v - 58 * u - amplitude * (main + shoulder) - ripple,
+    0.78 * elevation - 20,
   ];
 }
 
@@ -78,7 +79,7 @@ function svg(phase = 0) {
       <stop offset="0.36" stop-color="black"/><stop offset="0.73" stop-color="white"/>
     </linearGradient>
     <mask id="grid-mask"><rect width="${width}" height="${height}" fill="url(#grid-fade)"/></mask>
-    <linearGradient id="surface" x1="486" y1="310" x2="1130" y2="95" gradientUnits="userSpaceOnUse">
+    <linearGradient id="surface" x1="486" y1="222" x2="1130" y2="54" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0d2423"/><stop offset="0.25" stop-color="#124339"/><stop offset="0.68" stop-color="#18664e"/>
       <stop offset="0.87" stop-color="#237962"/><stop offset="1" stop-color="#12382e"/>
     </linearGradient>
@@ -101,9 +102,9 @@ function svg(phase = 0) {
     <g fill="none" stroke="url(#trace)">${mesh}</g>
     <g fill="none" stroke="url(#highlight)">${mesh}</g>
     ${nodeMarkup}
-    <path d="M64 116h52" stroke="#8abd9e" stroke-width="2"/>
-    <text x="60" y="203" font-family="Georgia, Constantia, serif" font-size="77" font-weight="bold" letter-spacing="-2.8" fill="#f7efdd">Patrick Wong</text>
-    <text x="64" y="257" font-family="Segoe UI, sans-serif" font-size="34" font-weight="500" fill="#b4d9c7">AI &amp; Data Engineering</text>
+    <path d="M64 65h52" stroke="#8abd9e" stroke-width="2"/>
+    <text x="60" y="152" font-family="Georgia, Constantia, serif" font-size="77" font-weight="bold" letter-spacing="-2.8" fill="#f7efdd">Patrick Wong</text>
+    <text x="64" y="206" font-family="Segoe UI, sans-serif" font-size="34" font-weight="500" fill="#b4d9c7">AI &amp; Data Engineering</text>
     <rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="21.5" fill="none" stroke="#8fc5b3" opacity="0.30"/>
   </g>
 </svg>`;
