@@ -1,25 +1,22 @@
-<p>
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-banner-contours.png">
-    <img src="assets/profile-banner-contours.gif" width="100%" alt="Patrick Wong, AI and Data Engineering">
-  </picture>
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-banner-contours.png">
+  <img src="assets/profile-banner-contours.gif" width="100%" alt="Patrick Wong, AI and Data Engineering">
+</picture>
+
+<p align="center">
+  <a href="#about-me">About</a> &nbsp; · &nbsp;
+  <a href="#selected-work">Selected work</a> &nbsp; · &nbsp;
+  <a href="#what-im-exploring">AI interests</a> &nbsp; · &nbsp;
+  <a href="#toolkit">Toolkit</a>
 </p>
 
-I build explainable AI tools and data pipelines. I’m exploring RAG, AI agents, and model evaluation while preparing for AWS certification.
+## About me
+
+I'm **Patrick Wong**, focused on **AI and data engineering**. I'm interested in the full path from useful data to AI applications: preparing inputs, evaluating models, and building software around the results.
+
+My current work spans **explainable financial-risk modelling**, **data quality monitoring and delivery pipelines**, and **computational intelligence for SQL performance**. I focus on explicit contracts, reproducible evaluation, and evidence people can inspect.
 
 ## Selected work
-
-- **FAST** · Mobile prototype for explainable financial risk and Monte Carlo forecasts. _Private source._
-- **[Data Quality Monitor](https://github.com/junpat32/data-quality-monitor)** · Windows validator that caught all **1,000 injected violations** in a 1M-row scan.
-- **[Data Pipeline Toolkit](https://github.com/junpat32/data-pipeline-toolkit)** · CSV and Parquet delivery checks. Accepted **10,000 UCI retail records**.
-- **[LayoutLab](https://github.com/junpat32/layoutlab-ci)** · Parquet tuning cut SQL runtime by **33–37%** on a 20.3M-row test workload.
-
-**Toolkit** · Python, SQL, DuckDB, PyArrow, scikit-learn, Streamlit, React Native
-
-[All repositories →](https://github.com/junpat32?tab=repositories)
-
-<details>
-<summary>Project details and benchmarks</summary>
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/fast-contours.png">
@@ -110,6 +107,27 @@ These results apply to the tested workload and laptop. Random search found the s
 
 **[Code & methodology →](https://github.com/junpat32/layoutlab-ci#results-and-scope)** &nbsp; [Benchmark records](https://github.com/junpat32/layoutlab-ci/tree/main/notebook_outputs/validation/paired_runs)
 
+## What I'm exploring
+
+- **Generative AI & agents:** retrieval-augmented generation (RAG), tool use, and evaluating LLM outputs.
+- **ML engineering & MLOps:** reproducible training, model serving, monitoring, and evaluation pipelines.
+- **Data engineering for AI:** data quality, SQL transformations, and efficient storage for AI workloads.
+- **Intelligent optimisation:** evolutionary search and surrogate models for practical engineering problems.
+
+**Current learning focus:** cloud AI/ML engineering on AWS, with associate-level certification preparation in progress.
+
+## Toolkit
+
+**Build:** `Python` &nbsp; `React Native` &nbsp; `PySide6` &nbsp; `Tkinter`
+
+**Work with data:** `SQL` &nbsp; `DuckDB` &nbsp; `SQLite` &nbsp; `PyArrow` &nbsp; `pandas` &nbsp; `NumPy`
+
+**Experiment:** `scikit-learn` &nbsp; `Jupyter`
+
+**Test and package:** `pytest` &nbsp; `Ruff` &nbsp; `PyInstaller` &nbsp; `Inno Setup`
+
 <img src="assets/profile-divider.svg" width="100%" alt="">
 
-</details>
+<p align="center">
+  <a href="https://github.com/junpat32?tab=repositories"><strong>More experiments & projects →</strong></a>
+</p>
